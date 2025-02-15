@@ -10,3 +10,4 @@ export const getWeatherDataForLocation = async (lat, lon)=>{
     return await response.json();
 
 }
+
