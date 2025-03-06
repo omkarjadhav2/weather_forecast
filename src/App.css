@@ -8,13 +8,13 @@
 .Card{
  
   padding: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
   border-radius: 20px;
 }
 
 .input_field{
   padding: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 8px;
   border: 0px;
   font-size: 25px;
   margin: 10px;
