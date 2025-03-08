@@ -2,14 +2,14 @@ import './App.css'
 import Input from './components/input'
 import  Card  from './components/card'
 import Button  from './components/button'
-import { useWheather } from './context/weather'
+import { useWeather } from './context/weather'
 import { useEffect } from 'react'
 function App() {
   useEffect(()=> {
     weather.fetchCurrentUserLocationData()
   },[])
 
-  const weather = useWheather();
+  const weather = useWeather();
   console.log(weather);
   return (
     <div className='App'>

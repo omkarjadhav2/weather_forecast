@@ -1,9 +1,9 @@
 import React from "react";
 import "../App.css"
-import { useWheather } from "../context/weather";
+import { useWeather } from "../context/weather";
 const Card = (props) =>{
 
-  const weather = useWheather();
+  const weather = useWeather();
     return (
        <div className="Card">
          <img src={weather.data?.current?.condition?.icon} alt="imaged" />

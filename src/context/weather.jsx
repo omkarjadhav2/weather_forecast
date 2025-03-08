@@ -4,8 +4,8 @@ import { getWeatherDataForCity , getWeatherDataForLocation } from "../api";
 
 const weathercontext = createContext(null);
 
-export const useWheather = () =>{
-    return useContext(weathercontext)            
+export const useWeather = () => {  
+    return useContext(weathercontext);
 }
 
 export const Weatherprovider = (props) =>{
